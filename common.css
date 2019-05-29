@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+body{width: 100%;}
+section{position: relative; height: 1999px; background: linear-gradient(to top, #fa3a3a, #f2aaf2);}
+nav{position: fixed; width: 100%; height: 80px; background: rgba(45,45,45,0.98);}
+h1{font-family: Helvetica; color: #f2f2f2; font-size: 40px; float: left; width: 10%; text-align: center; line-height: 80px;}
+ul{float: right; width: 60%;}
+ul:after{
+content: "";
+display: block;
+clear: both;}
+li{float: left; list-style: none; width: 50%; text-align: center;}
+a{width: 100%; font-family: Helvetica; font-size: 16px; text-decoration: none; line-height: 80px; color: #f2f2f2;}
